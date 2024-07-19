@@ -1,0 +1,48 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.main-title {
+  text-align: left;
+  background: rgb(10, 10, 10);
+  color: rgb(49, 161, 218);
+  padding: 2rem;
+}
+
+.index {
+  font-size: 4rem;
+  padding: 2rem;
+}
+
+.list {
+  margin-bottom: 5rem;
+}
+
+.list-item {
+  font-size: 2rem;
+  padding: .5rem 2rem;
+}
+
+.post {
+  padding: 2rem;
+}
+
+.post > p {
+  padding: 1rem;
+  background: #ccc;
+  min-height: 10rem;
+  max-width: 50rem;
+  text-align: justify;
+  font-size: 2rem;
+}
